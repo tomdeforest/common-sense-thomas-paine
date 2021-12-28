@@ -1,0 +1,66 @@
+@import url('reset.css');
+
+@font-face {
+	font-family: 'CallunaRegular';
+	src: local('Calluna Regular'), local('Calluna-Regular'), url('Calluna-Regular.otf') format('opentype');
+}
+body { 
+	color: #333;
+	background: #fff;
+	margin:3em auto;
+	width:60em;
+	font-family: "CallunaRegular","Times New Roman", serif;
+	text-align: justify;
+	font-size:65%;
+}
+h1, h2, h3, h4 {
+	line-height:1.2;
+	text-align: left;
+	margin:.5em 0;
+	letter-spacing:-.05em;
+}
+h1 {
+	font-size: 6.4em;
+	margin-bottom:0;
+	color:#c00;
+}
+h2 {
+	font-size:3.6em;
+}
+h3 {
+	font-size:2.4em;
+}
+h4 {
+	font-size:1.8em;
+}
+h5 {
+	font-size:1.4em;
+}
+p, pre, ul {
+	font-size:1.6em;
+	line-height:1.2;
+	text-indent: 2em;
+}
+ol {
+	font-size:1.6em;
+	line-height:1.2;
+	margin:1em 0;
+	list-style: upper-roman outside;
+}
+.footnotes {
+	font-size:1em;
+	list-style-type: decimal;
+}
+pre {
+	font-family: monospace;
+	margin:1em 0;
+}
+p.noindent {text-indent: 0;}
+.center {
+	text-align:center;
+}
+.finis {
+	text-transform: uppercase;
+	text-align:center;
+	letter-spacing:1em;
+}
